@@ -1,4 +1,4 @@
-module common.go
+module github.com/PageFaultCode/CommonWealth
 
 go 1.23.4
 
