@@ -11,6 +11,10 @@ import (
 const (
 	UserSubject   = "user"
 	UserTableName = "user"
+	AdminRole     = "ADMIN"
+	ModeratorRole = "MODERATOR"
+	UserRole      = "USER"
+	BannedRole    = "BANNED"
 )
 
 type UserEntry struct {

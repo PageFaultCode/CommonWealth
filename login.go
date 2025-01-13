@@ -5,7 +5,7 @@ const (
 	LoginSubject      = "login"
 	LogoutSubject     = "logout"
 	UserNameParameter = "user_name"
-	TokeParameter     = "token"
+	TokenParameter    = "token"
 	CheckLogin        = "select * from " + UserTableName + " where user_name='%s' and password='%s'"
 )
 
