@@ -6,7 +6,7 @@ const (
 	LogoutSubject     = "logout"
 	UserNameParameter = "user_name"
 	TokenParameter    = "token"
-	CheckLogin        = "select * from " + UserTableName + " where user_name='%s' and password='%s'"
+	GetUser           = "select * from " + UserTableName + " where user_name='%s'"
 )
 
 // LoginUser struct to define what is needed to log in a user
