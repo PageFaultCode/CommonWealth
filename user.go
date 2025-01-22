@@ -10,7 +10,6 @@ import (
 // UserSubject so we end up with user/create user/read, etc.
 const (
 	UserSubject   = "user"
-	UserTableName = "user"
 	AdminRole     = "ADMIN"
 	ModeratorRole = "MODERATOR"
 	UserRole      = "USER"
@@ -19,11 +18,15 @@ const (
 
 type UserEntry struct {
 	ID             uuid.UUID  `db:"id"`
+	Role           string     `db:"role"`
 	FirstName      string     `db:"first_name"`
 	LastName       string     `db:"last_name"`
 	UserName       string     `db:"user_name"`
+	Email          string     `db:"email"`
+	Phone          string     `db:"phone"`
 	Password       string     `db:"password"`
 	PasswordChange *time.Time `db:"password_change"`
+	LastLogin      *time.Time `db:"last_login"`
 	Created        time.Time  `db:"created"`
 	Updated        time.Time  `db:"updated"`
 	Active         bool       `db:"active"`

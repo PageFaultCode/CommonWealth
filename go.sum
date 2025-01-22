@@ -1,3 +1,7 @@
+github.com/go-crypt/crypt v0.3.2 h1:I4i0u2g8X9bxCXIjvv19BDVXqQbddDQrURCJrOyyJos=
+github.com/go-crypt/crypt v0.3.2/go.mod h1:U0YhpCizEtaVC4gVfUUN0qGn1Z6+e3at+B5uLYx/sV0=
+github.com/go-crypt/x v0.3.2 h1:m2wn2+8tp28V4yDiW5NSTiyNSXnCoTs1R1+H+cAJA3M=
+github.com/go-crypt/x v0.3.2/go.mod h1:uelN9rbD2e2eqE8KA26B9R6OQ0TdM6msWdPsoMM1ZFk=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/klauspost/compress v1.17.9 h1:6KIumPrER1LHsvBVuDa0r5xaG0Es51mhhB9BQB2qeMA=
