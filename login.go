@@ -5,7 +5,6 @@ const (
 	LoginSubject      = "login"
 	LogoutSubject     = "logout"
 	UserNameParameter = "user_name"
-	TokenParameter    = "token"
 )
 
 // LoginUser struct to define what is needed to log in a user
